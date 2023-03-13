@@ -18,3 +18,5 @@ Additional Features:
 - Toggle between Celsius and Fahrehignhieght or however you spell it 
 
 - Information about what the particular Wet Bulb Temperature means, including warnings
+
+- Those warning guides, or Flags, can be selected from various sources

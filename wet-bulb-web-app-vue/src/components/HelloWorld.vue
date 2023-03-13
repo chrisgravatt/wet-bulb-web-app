@@ -11,10 +11,12 @@ defineProps({
   <div class="greetings">
     <h1 class="green">{{ msg }}</h1>
     <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
+      Enter your location to find the Wet Bulb Temperature
     </h3>
+    <v-autocomplete
+      label="Autocomplete"
+      :items="['California', 'Colorado', 'Florida', 'Georgia', 'Texas', 'Wyoming']"
+    ></v-autocomplete>
   </div>
 </template>
 
@@ -27,6 +29,13 @@ h1 {
 
 h3 {
   font-size: 1.2rem;
+}
+
+form {
+  font-size: 2rem;
+  width:200px;
+  padding:20px;
+  margin:10px 0;
 }
 
 .greetings h1,
